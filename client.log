@@ -1,0 +1,26 @@
+2021-06-18 14:57:05 INFO  Client:27 - Start client...
+2021-06-18 14:57:23 DEBUG ParserMsg:27 - Parse objMsg: client.Message@5056dfcb to JSON object.
+2021-06-18 14:57:23 INFO  ClientManager:60 - Message send: {"senderName":"Денис","msgType":"connected"}
+2021-06-18 14:57:23 DEBUG Client:34 - listener thread started
+2021-06-18 14:57:23 DEBUG Client:36 - writer thread started
+2021-06-18 14:57:23 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Денис","msgType":"connected","message":"User connected.","msgStatus":"NO error"} to Message object.
+2021-06-18 15:02:01 DEBUG ParserMsg:27 - Parse objMsg: client.Message@400b9944 to JSON object.
+2021-06-18 15:02:01 INFO  ClientManager:60 - Message send: {"senderName":"Денис","msgType":"simpleMsg","message":"Всем привет!"}
+2021-06-18 15:02:19 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Привет, Денис!","msgStatus":"NO error","dateTimeMsg":"15:02"} to Message object.
+2021-06-18 15:02:19 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Привет, Денис!","msgStatus":"NO error","dateTimeMsg":"15:02"} to Message object.
+2021-06-18 15:02:19 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Привет, Денис!","msgStatus":"NO error","dateTimeMsg":"15:02"} to Message object.
+2021-06-18 15:02:19 DEBUG Client:104 - Response: Author: Max | [time send : 15:02]
+Message: Привет, Денис!
+2021-06-18 15:02:29 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Как дела?","msgStatus":"NO error","dateTimeMsg":"15:02"} to Message object.
+2021-06-18 15:02:29 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Как дела?","msgStatus":"NO error","dateTimeMsg":"15:02"} to Message object.
+2021-06-18 15:02:29 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Как дела?","msgStatus":"NO error","dateTimeMsg":"15:02"} to Message object.
+2021-06-18 15:02:29 DEBUG Client:104 - Response: Author: Max | [time send : 15:02]
+Message: Как дела?
+2021-06-18 15:02:33 DEBUG ParserMsg:27 - Parse objMsg: client.Message@4ecc6f35 to JSON object.
+2021-06-18 15:02:33 INFO  ClientManager:60 - Message send: {"senderName":"Денис","msgType":"simpleMsg","message":"норм."}
+2021-06-18 15:02:37 DEBUG ParserMsg:27 - Parse objMsg: client.Message@4af3f234 to JSON object.
+2021-06-18 15:02:37 INFO  ClientManager:60 - Message send: {"senderName":"Денис","msgType":"disconnect"}
+2021-06-18 15:02:37 DEBUG Client:84 - writer thread interrupted
+2021-06-18 15:02:37 DEBUG ParserMsg:17 - Parse msg: {"senderName":"Денис","msgType":"disconnect","message":"User disconnected from chat.","msgStatus":"NO error"} to Message object.
+2021-06-18 15:02:37 DEBUG Client:112 - listener thread interrupted
+2021-06-18 15:02:37 INFO  Client:40 - Disconnected client...

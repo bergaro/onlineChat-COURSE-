@@ -1,0 +1,48 @@
+2021-06-18 14:57:02 INFO  Server:23 - Server started...
+2021-06-18 14:57:23 INFO  Server:65 - pool-1-thread-1 send from the message: {"senderName":"Денис","msgType":"connected"}
+2021-06-18 14:57:23 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Денис","msgType":"connected"} to Message object.
+2021-06-18 14:57:23 INFO  ServerManager:55 - Route: connected
+2021-06-18 14:57:23 DEBUG ServerManager:69 - Server answer: {"msgType":"srvMsg","message":"in processing","msgStatus":"NO error"}
+2021-06-18 14:57:23 INFO  Server:71 - Response: {senderName: "null", msgType: "srvMsg", message: "in processing", msgStatus: "NO error", dateTimeMsg: "null"}
+2021-06-18 15:01:43 INFO  Server:65 - pool-1-thread-2 send from the message: {"senderName":"Max","msgType":"connected"}
+2021-06-18 15:01:43 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Max","msgType":"connected"} to Message object.
+2021-06-18 15:01:43 INFO  ServerManager:55 - Route: connected
+2021-06-18 15:01:43 DEBUG ServerManager:69 - Server answer: {"msgType":"srvMsg","message":"in processing","msgStatus":"NO error"}
+2021-06-18 15:01:43 INFO  Server:71 - Response: {senderName: "null", msgType: "srvMsg", message: "in processing", msgStatus: "NO error", dateTimeMsg: "null"}
+2021-06-18 15:02:01 INFO  Server:65 - pool-1-thread-1 send from the message: {"senderName":"Денис","msgType":"simpleMsg","message":"Всем привет!"}
+2021-06-18 15:02:01 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Денис","msgType":"simpleMsg","message":"Всем привет!"} to Message object.
+2021-06-18 15:02:01 INFO  ServerManager:116 - Message {{senderName: "Денис", msgType: "simpleMsg", message: "Всем привет!", msgStatus: "null", dateTimeMsg: "null"}} sent to user: Max
+2021-06-18 15:02:01 INFO  ServerManager:60 - Route: simpleMsg
+2021-06-18 15:02:01 DEBUG ServerManager:69 - Server answer: {"msgType":"srvMsg","message":"in processing","msgStatus":"NO error"}
+2021-06-18 15:02:01 INFO  Server:71 - Response: {senderName: "null", msgType: "srvMsg", message: "in processing", msgStatus: "NO error", dateTimeMsg: "null"}
+2021-06-18 15:02:19 INFO  Server:65 - pool-1-thread-2 send from the message: {"senderName":"Max","msgType":"simpleMsg","message":"Привет, Денис!"}
+2021-06-18 15:02:19 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Привет, Денис!"} to Message object.
+2021-06-18 15:02:19 INFO  ServerManager:116 - Message {{senderName: "Max", msgType: "simpleMsg", message: "Привет, Денис!", msgStatus: "null", dateTimeMsg: "null"}} sent to user: Денис
+2021-06-18 15:02:19 INFO  ServerManager:60 - Route: simpleMsg
+2021-06-18 15:02:19 DEBUG ServerManager:69 - Server answer: {"msgType":"srvMsg","message":"in processing","msgStatus":"NO error"}
+2021-06-18 15:02:19 INFO  Server:71 - Response: {senderName: "null", msgType: "srvMsg", message: "in processing", msgStatus: "NO error", dateTimeMsg: "null"}
+2021-06-18 15:02:29 INFO  Server:65 - pool-1-thread-2 send from the message: {"senderName":"Max","msgType":"simpleMsg","message":"Как дела?"}
+2021-06-18 15:02:29 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Max","msgType":"simpleMsg","message":"Как дела?"} to Message object.
+2021-06-18 15:02:29 INFO  ServerManager:116 - Message {{senderName: "Max", msgType: "simpleMsg", message: "Как дела?", msgStatus: "null", dateTimeMsg: "null"}} sent to user: Денис
+2021-06-18 15:02:29 INFO  ServerManager:60 - Route: simpleMsg
+2021-06-18 15:02:29 DEBUG ServerManager:69 - Server answer: {"msgType":"srvMsg","message":"in processing","msgStatus":"NO error"}
+2021-06-18 15:02:29 INFO  Server:71 - Response: {senderName: "null", msgType: "srvMsg", message: "in processing", msgStatus: "NO error", dateTimeMsg: "null"}
+2021-06-18 15:02:33 INFO  Server:65 - pool-1-thread-1 send from the message: {"senderName":"Денис","msgType":"simpleMsg","message":"норм."}
+2021-06-18 15:02:33 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Денис","msgType":"simpleMsg","message":"норм."} to Message object.
+2021-06-18 15:02:33 INFO  ServerManager:116 - Message {{senderName: "Денис", msgType: "simpleMsg", message: "норм.", msgStatus: "null", dateTimeMsg: "null"}} sent to user: Max
+2021-06-18 15:02:33 INFO  ServerManager:60 - Route: simpleMsg
+2021-06-18 15:02:33 DEBUG ServerManager:69 - Server answer: {"msgType":"srvMsg","message":"in processing","msgStatus":"NO error"}
+2021-06-18 15:02:33 INFO  Server:71 - Response: {senderName: "null", msgType: "srvMsg", message: "in processing", msgStatus: "NO error", dateTimeMsg: "null"}
+2021-06-18 15:02:37 INFO  Server:65 - pool-1-thread-1 send from the message: {"senderName":"Денис","msgType":"disconnect"}
+2021-06-18 15:02:37 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Денис","msgType":"disconnect"} to Message object.
+2021-06-18 15:02:37 DEBUG ServerManager:139 - User: Денис disconnected
+2021-06-18 15:02:37 INFO  ServerManager:65 - Route: disconnect
+2021-06-18 15:02:37 DEBUG ServerManager:69 - Server answer: {"senderName":"Денис","msgType":"disconnect","message":"User disconnected from chat.","msgStatus":"NO error"}
+2021-06-18 15:02:37 INFO  Server:68 - pool-1-thread-1 is disconnected...
+2021-06-18 15:02:42 INFO  Server:65 - pool-1-thread-2 send from the message: {"senderName":"Max","msgType":"disconnect"}
+2021-06-18 15:02:42 DEBUG ParserMsg:19 - Parse msg: {"senderName":"Max","msgType":"disconnect"} to Message object.
+2021-06-18 15:02:42 DEBUG ServerManager:139 - User: Max disconnected
+2021-06-18 15:02:42 INFO  ServerManager:65 - Route: disconnect
+2021-06-18 15:02:42 DEBUG ServerManager:69 - Server answer: {"senderName":"Max","msgType":"disconnect","message":"User disconnected from chat.","msgStatus":"NO error"}
+2021-06-18 15:02:42 INFO  Server:68 - pool-1-thread-2 is disconnected...
+2021-06-18 15:14:52 INFO  Server:23 - Server started...
